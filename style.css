@@ -1,0 +1,117 @@
+* {
+	font-family: Arial, sans-serif;
+	font-size: 13px;
+}
+
+.header ul {
+	margin: 15px 25px 0 0;
+}
+.header li {
+	list-style: none;
+	display: inline;
+}
+
+.header li:first-child{
+	margin-right:15px;
+}
+
+.header li:nth-child(2){
+	margin-right:15px;
+}
+
+.header li:nth-child(3){
+	margin-right:15px;
+}
+
+.more-tools img{
+	width: 15px;
+}
+
+li .btn-primary {
+	color:#fff;
+	border: 1px solid #4285f4;
+	font-weight: bold;
+	border-radius: 2px;
+	background-color: #4285f4 !important;
+	padding: 5px 10px;
+}
+
+.logo{
+	margin-top: 150px;
+}
+
+.logo img {
+	display:block;
+	margin: 0 auto;
+	width: 272px;
+}
+
+.form{
+	margin: 35px 0;	
+}
+
+input.form-control.search {
+	margin: auto;
+	height: 40px;
+	width: 586px;
+	border-radius: 0;
+}
+
+.form-control:focus {
+	border-color: #4285f4;
+	box-shadow: none !important;
+}
+
+.buttons {
+	margin-top: 15px;
+	text-align: center;
+}
+
+.buttons .btn-default {
+	background-color: #f2f2f2;
+	border: 1px solid #f2f2f2;
+	border-radius: 2px;
+	color: #757575;
+	font-weight: bold;
+	font-size: 0.95em;
+	padding: 10px 15px;
+}
+
+.buttons .btn-default:first-child {
+	margin-right: 5px;
+}
+
+.buttons .btn-default:hover {
+	background-color: #f2f2f2;
+	border: 1px solid #c6c6c6;
+	color: #222;
+	box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+}
+
+footer {
+	background: #f2f2f2;
+	height: 35px;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	margin:0;
+}
+
+footer ul {
+	padding-top: 10px;
+}
+
+footer ul.one {
+	float: left;
+}
+footer ul.two {
+	float: right;
+	padding-right: 20px;
+}
+
+footer li {
+	list-style: none;
+	display: inline;
+	padding: 10px;
+	color: #666;
+}
